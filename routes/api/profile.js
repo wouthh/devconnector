@@ -98,6 +98,8 @@ router.get("/user/:user_id", (req, res) => {
     );
 });
 
+// TODO: Add check if user is adding a second handle and deny this or delete old handle
+// depending on next steps in course (if handle can be modified when editing the user profile)
 // @route   POST api/profile
 // @desc    Create or edit user profile
 // @access  Private
@@ -151,7 +153,7 @@ router.post(
         // Check if handle exists
         Profile.findOne({ handle: profileFields.handle }).then(profile => {
           if (profile) {
-            errors.handle = "Than handle already exists";
+            errors.handle = "The handle already exists";
             res.status(400).json(errors);
           }
 
