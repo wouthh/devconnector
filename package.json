@@ -14,7 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/woutheijnen/devconnector.git"
   },
-  "author": "Wout Heijnen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/woutheijnen/devconnector/issues"
