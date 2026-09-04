@@ -14,7 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/wouthh/devconnector.git"
   },
-  "author": "Wout",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wouthh/devconnector/issues"
