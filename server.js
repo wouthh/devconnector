@@ -16,7 +16,8 @@ app.use(bodyParser.json());
 // DB Config
 const db = require('./config/keys').mongoURI;
 
-// Connect to MongoDB
+// Connect to MongoDB (keep Mongoose 6 strict query filtering explicit)
+mongoose.set('strictQuery', true);
 mongoose
   .connect(db)
   .then(() => console.log('MongoDB Connected'))
