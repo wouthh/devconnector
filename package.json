@@ -21,17 +21,17 @@
   "homepage": "https://github.com/wouthh/devconnector#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.8",
     "concurrently": "^3.6.1",
-    "express": "^4.16.3",
+    "express": "^4.22.3",
     "gravatar": "^1.6.0",
-    "jsonwebtoken": "^8.3.0",
-    "mongoose": "^5.2.7",
-    "passport": "^0.4.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^6.13.11",
+    "passport": "^0.7.0",
     "passport-jwt": "^4.0.0",
-    "validator": "^10.5.0"
+    "validator": "^13.15.35"
   },
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "nodemon": "^3.1.14"
   }
 }
